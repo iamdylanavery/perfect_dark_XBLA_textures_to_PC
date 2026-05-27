@@ -53,6 +53,8 @@ pip install Pillow
     data/ext_tex/ directory.
 4.  Launch the game and enjoy!
 
+### Remember: You MUST be using the External HD Textures mod by `rafccq` or else this does nothing.
+
 ### Credits
 
   - Dodylectable - Developed the Noesis Python extraction plugin mapping the
