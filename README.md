@@ -65,3 +65,5 @@ pip install Pillow
   - kholdfuzion, shalashaka, tjoener, neptuwunium - For early file format
     reverse-engineering research.
 
+  - Graslu00's Discord 
+
