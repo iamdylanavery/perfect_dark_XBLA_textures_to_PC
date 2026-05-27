@@ -25,7 +25,7 @@ By extracting the XBLA assets, unswizzling them, and converting their decimal ar
 
 ### Step 1: Extract Your Textures
 1. Download **Noesis** (a portable tool for asset viewing and exporting).
-2. Copy the community Noesis plugin `fmt_PerfectDarkXBLA.py` (by Dodylectable) and drop it into your `Noesis/plugins/python/` folder.
+2. Copy the community Noesis plugin `fmt_PerfectDarkXBLA.py` (by `Dodylectable`) and drop it into your `Noesis/plugins/python/` folder.
 3. Run Noesis, navigate to your XBLA `Textures.raw` file, right-click the archive, select **Export**, and choose `.dds` as your output. 
 4. This will generate a folder named `Textures_files` full of unswizzled `.dds` files named like:
    `tex_0240_fmt_82_256x256_parent_4294967295.dds`
@@ -37,11 +37,11 @@ pip install Pillow
 
 ### Step 3: Run the Bridge Script
 
-1.  Download the pd_final_bridge.py script from this repository.
-2.  Place the pd_final_bridge.py file right next to your newly generated
+1.  Download the pd_xbox_pc_bridge.py script from this repository.
+2.  Place the pd_xbox_pc_bridge.py file right next to your newly generated
     Textures_files directory.
 3.  Run the script:
-    python pd_final_bridge.py
+    python pd_xbox_pc_bridge.py
 4.  The script will automatically parse the decimal indices, convert them to
     uppercase 4-digit N64 hex codes, and batch convert the DDS files to PNGs.
 
@@ -56,7 +56,10 @@ pip install Pillow
 ### Credits
 
   - Dodylectable - Developed the Noesis Python extraction plugin mapping the
-    base offsets and unswizzle matrices.
+    base offsets and unswizzle matrices, and provided crucial information.
+    Buy him a drink:
+    https://ko-fi.com/dodylectable
+    
   - kholdfuzion, shalashaka, tjoener, neptuwunium - For early file format
     reverse-engineering research.
 
